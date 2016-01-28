@@ -85,9 +85,9 @@ class BadiuSpider:
 
 
 
-Badiuspider = Spider()
+Badiuspider = BadiuSpider()
 
-spider.getContents(1)
+Badiuspider.getContents(1)
 
 
 
