@@ -15,7 +15,7 @@ import re
 
 print '''
 
-                   Baidu Spiders V1.0
+                   Baidu Spiders V1.0.2
 
 
 
@@ -29,7 +29,7 @@ print '''
 
 
 
-wb = "site:.jmpt.cn"  #这里输入你的关键词/Input your keywords here
+wb = raw_input("input your keywords:\n")  #这里输入你的关键词/Input your keywords here
 
 Pagenumber = raw_input("input your value:\n")  #必须是10的倍数
 
